@@ -1,0 +1,136 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.f-left{
+    float: left;
+}
+
+.f-right{
+    float: right;
+}
+
+.cl-left{
+    clear: left;
+}
+
+.cl-right{
+    clear: right;;
+}
+
+.p-rel{
+    position: relative;
+}
+
+.p-abs{
+    position: absolute;
+}
+
+t-up{
+    text-transform: uppercase;
+}
+
+.over-aut{
+    overflow: auto;
+}
+
+.c-blue{
+    color: #48AAE6;
+}
+
+.c-gray{
+    color: #AAB8C2;
+}
+
+/*header*/
+.main-header{
+    height: 4rem;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    background-color: white;
+}
+.nav-header, .main-section{
+    width: 90%;
+    margin: 1rem auto;
+}
+
+.nav-header div{
+    width: 33.3%;
+    text-align: center;
+}
+
+.nav-header button{
+    border: none;
+    background-color: transparent;
+}
+
+.nav-header button:focus{
+    border-bottom: 5px solid #48AAE6;
+}
+
+.main-section{
+    top: 4rem;
+}
+
+/*seccion perfil*/
+.per-tend{
+    width: 25%;
+}
+
+.perfil div:nth-child(2){
+    position: absolute;
+    top: 6rem;
+    left: 2rem;
+}
+
+#perfil-img{
+    border-radius: 0.5rem;
+    border: 5.5px solid white;
+}
+
+.seg, .sig, .twe{
+    margin-top: 3rem;
+}
+
+/*seccion ppublicaciones*/
+.center{
+    min-width: 60%;
+}
+
+.publicar, .all-post{
+    width: 90%;
+    margin: auto;
+}
+
+.publicar{
+    overflow: hidden;
+    padding: 2rem;
+}
+
+.publicar img{
+    float: left;
+    width: 3rem;
+    border-radius: 0.5rem;
+}
+
+.publicar input{
+    width: 70%;
+    top: 2.2rem;
+    left: 15%;
+    padding: 0.5rem;
+}
+
+.post img{
+    float: left;
+    width: 3.5rem;
+}
+
+.post>p:nth-child(4){
+    clear: left;
+    margin: 0 1.5rem;
+}
